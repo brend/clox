@@ -8,5 +8,6 @@
 #define DEBUG_TRACE_EXECUTION
 
 #pragma GCC diagnostic ignored "-Wunused-parameter"
+#pragma GCC diagnostic ignored "-Wunused-function"
 
 #endif
