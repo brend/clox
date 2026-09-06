@@ -1,5 +1,5 @@
 # Executable in the project root
-/lox
+/clox
 
 # Compiler output
 *.o

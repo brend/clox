@@ -1,12 +1,12 @@
 CC = cc
 CFLAGS = -Wall -Wextra -Werror
 
-SOURCES = ${wildcard *.c}
-HEADERS = ${wildcard *.h}
+SOURCES = ${wildcard src/*.c}
+HEADERS = ${wildcard src/*.h}
 
-lox: ${SOURCES} ${HEADERS}
+clox: ${SOURCES} ${HEADERS}
 	${CC} ${CFLAGS} ${SOURCES} -o $@
 
 .PHONY: clean
 clean:
-	rm -f lox
+	rm -f clox
