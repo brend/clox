@@ -1,0 +1,10 @@
+# Executable in the project root
+/lox
+
+# Compiler output
+*.o
+*.d
+
+# macOS debug symbols and metadata
+*.dSYM/
+.DS_Store
