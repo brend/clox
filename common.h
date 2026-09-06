@@ -5,6 +5,8 @@
 #include <stddef.h>
 #include <stdint.h>
 
+#define DEBUG_TRACE_EXECUTION
+
 #pragma GCC diagnostic ignored "-Wunused-parameter"
 
 #endif
